@@ -21,6 +21,7 @@ namespace HCIKeyboardLayoutAndroid
     public class MainActivity : AppCompatActivity
     {
         static int val = 0;
+        int x = 0;
         string temps;
         string[,] S = new string[3, 50];
         static Stopwatch stopWatch = new Stopwatch();
